@@ -2,11 +2,11 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.compose.compiler)
-    id("maven-publish")
+
 }
 
 android {
-    namespace = "com.github.migueldk17.breezeicons"
+    namespace = "com.migueldk17.breezeicons"
     compileSdk = 35
 
     defaultConfig {

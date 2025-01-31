@@ -15,8 +15,8 @@ import com.github.migueldk17.breezeicons.icons.BreezeIcon
 import com.github.migueldk17.breezeicons.icons.BreezeIcons
 
 @Composable
-fun ImplementationCard(){
-    Column(modifier = Modifier
+fun ImplementationCard(modifier: Modifier = Modifier){
+    Column(modifier = modifier
         .fillMaxSize(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally) {
@@ -27,7 +27,7 @@ fun ImplementationCard(){
                 modifier = Modifier.fillMaxSize()
             ) {
                 BreezeIcon(
-                    BreezeIcons.Linear.BookLinear,
+                    BreezeIcons.Linear.BookLinear(),
                     contentDescription = null
                 )
             }

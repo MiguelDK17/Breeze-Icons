@@ -3,7 +3,6 @@ package com.github.migueldk17.breezeicons.icons
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
-import com.github.migueldk17.breezeicons.icons.BreezeIconsType
 import com.github.migueldk17.breezeicons.R
 
 //Object que usa os icones
@@ -11,9 +10,10 @@ object BreezeIcons {
 
     //Icones Lineares
     object Linear {
-        val BookLinear: BreezeIconsType
-            @Composable
-            get() = BreezeIconsType.LinearIcon(ImageVector.vectorResource(R.drawable.ic_book))
+        @Composable
+        fun BookLinear(): BreezeIconsType {
+            return  BreezeIconsType.LinearIcon(ImageVector.vectorResource(R.drawable.ic_book))
+        }
 
         val GroupLinear: BreezeIconsType
             @Composable
