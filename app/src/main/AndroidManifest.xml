@@ -11,6 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BreezeIcons"
-        tools:targetApi="31" />
+        tools:targetApi="31" >
+
+        <activity
+            android:name="com.migueldk17.breezeicons.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.BreezeIcons">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <action android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+
+
 
 </manifest>
