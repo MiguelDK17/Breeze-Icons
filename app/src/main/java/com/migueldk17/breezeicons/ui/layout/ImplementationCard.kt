@@ -14,6 +14,7 @@ import androidx.compose.ui.unit.dp
 import com.github.migueldk17.breezeicons.icons.BreezeIcon
 import com.github.migueldk17.breezeicons.icons.BreezeIcons
 
+
 @Composable
 fun ImplementationCard(modifier: Modifier = Modifier){
     Column(modifier = modifier
@@ -24,11 +25,34 @@ fun ImplementationCard(modifier: Modifier = Modifier){
             .size(width = 429.dp, height = 80.dp),
             ) {
             Row(
-                modifier = Modifier.fillMaxSize()
+                modifier = Modifier.fillMaxSize(),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.SpaceEvenly
             ) {
                 BreezeIcon(
-                    BreezeIcons.Linear.BookLinear(),
-                    contentDescription = null
+                    BreezeIcons.Linear.BookLinear,
+                    contentDescription = null,
+                    modifier = Modifier.size(width = 41.dp, height = 32.dp)
+                )
+                BreezeIcon(
+                    BreezeIcons.Linear.GroupLinear,
+                    contentDescription = null,
+                    modifier = Modifier.size(width = 41.dp, height = 32.dp)
+                )
+                BreezeIcon(
+                    BreezeIcons.Linear.GlobeLinear,
+                    contentDescription = null,
+                    modifier = Modifier.size(width = 41.dp, height = 32.dp)
+                )
+                BreezeIcon(
+                    BreezeIcons.Linear.CarLinear,
+                    contentDescription = null,
+                    modifier = Modifier.size(width = 41.dp, height = 32.dp)
+                )
+                BreezeIcon(
+                    BreezeIcons.Linear.CloudLinear,
+                    contentDescription = null,
+                    modifier = Modifier.size(width = 41.dp, height = 32.dp)
                 )
             }
 

@@ -10,10 +10,9 @@ object BreezeIcons {
 
     //Icones Lineares
     object Linear {
-        @Composable
-        fun BookLinear(): BreezeIconsType {
-            return  BreezeIconsType.LinearIcon(ImageVector.vectorResource(R.drawable.ic_book))
-        }
+        val BookLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(ImageVector.vectorResource(R.drawable.ic_book))
 
         val GroupLinear: BreezeIconsType
             @Composable
