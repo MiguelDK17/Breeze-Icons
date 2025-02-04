@@ -1,6 +1,8 @@
 package com.github.migueldk17.breezeicons.icons
 
 
+import android.content.ContentValues.TAG
+import android.util.Log
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
@@ -18,9 +20,10 @@ fun BreezeIcon(
     ) {
 
     //Converte BreezeIconType para ImageVector e identifica qual o tipo de ícone
-    val icon: ImageVector = when (breezeIcon) {
+    val icon: ImageVector? = when (breezeIcon) {
         is BreezeIconsType.ColorIcon -> breezeIcon.icon
         is BreezeIconsType.LinearIcon -> breezeIcon.icon
+        is BreezeIconsType.Unspecified -> null
     }
 
     //Muda a cor do ícone conforme o tipo
@@ -40,10 +43,14 @@ fun BreezeIcon(
 
     }
     //Icon padrão do Jetpack Compose com as definições já filtradas e estabelecidas
-    Icon(
-        imageVector = icon,
-        contentDescription = contentDescription,
-        modifier = modifier,
-        tint = tint
-    )
+    if (icon != null) {
+        Icon(
+            imageVector = icon,
+            contentDescription = contentDescription,
+            modifier = modifier,
+            tint = tint
+        )
+    } else {
+        Log.d(TAG, "BreezeIcon: Alert! Are you using the Unspecified Icon? It is for typing only and will not be rendered")
+    }
 }

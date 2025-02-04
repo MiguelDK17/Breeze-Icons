@@ -8,4 +8,7 @@ sealed class BreezeIconsType {
     data class ColorIcon(val icon: ImageVector): BreezeIconsType()
     //Icones Lineares
     data class LinearIcon(val icon: ImageVector): BreezeIconsType()
+
+    //Icone não especificado, será usado apenas para tipagem
+    data object Unspecified : BreezeIconsType()
 }

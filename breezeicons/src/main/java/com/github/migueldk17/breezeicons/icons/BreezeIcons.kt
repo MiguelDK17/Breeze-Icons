@@ -68,7 +68,11 @@ object BreezeIcons {
         val IconTurquoise: BreezeIconsType
             @Composable
             get() = BreezeIconsType.ColorIcon(ImageVector.vectorResource(R.drawable.icon_turquoise))
+    }
 
+    object Unspecified {
+        val IconUnspecified: BreezeIconsType
+            get() = BreezeIconsType.Unspecified
 
     }
 
