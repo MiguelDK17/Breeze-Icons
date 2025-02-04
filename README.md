@@ -27,7 +27,7 @@ Using Breeze Icons in your project is simple with JitPack.
 	}
 ```
 
-## Usage
+## 🛠️Usage
 ### BreezeIcon
 The BreezeIcon component is responsible for rendering icons. It works similarly to Jetpack Compose's default Icon component, requiring an icon from the BreezeIcons collection and a contentDescription:
 
@@ -57,7 +57,7 @@ BreezeIcon(
 - [Material Design 3](https://m3.material.io/)
 - [Panda Icons Library](https://www.figma.com/community/file/1331872221749358492/panda-icons-library)
 
-## Contributions
+## 🤝Contributions
 Feel free to open **issue** and **pull requests** to improve the library!
 
 
