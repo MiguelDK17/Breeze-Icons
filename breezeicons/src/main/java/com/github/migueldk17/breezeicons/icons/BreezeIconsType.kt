@@ -1,11 +1,12 @@
 package com.github.migueldk17.breezeicons.icons
 
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 
 //Classe que é usada para tipar os icones
-sealed class BreezeIconsType {
+sealed class BreezeIconsType(val color: Color = Color.Unspecified) {
     //Icones Coloridos
-    data class ColorIcon(val icon: ImageVector): BreezeIconsType()
+     class ColorIcon(val icon: ImageVector,color: Color): BreezeIconsType(color)
     //Icones Lineares
     data class LinearIcon(val icon: ImageVector): BreezeIconsType()
 
