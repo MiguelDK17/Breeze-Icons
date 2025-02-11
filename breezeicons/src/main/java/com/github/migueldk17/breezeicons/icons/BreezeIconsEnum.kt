@@ -20,4 +20,6 @@ enum class BreezeIconsEnum {
     ICON_GREEN_CYAN,
     ICON_TURQUOISE,
 
+    //Icone não especificado
+    ICON_UNSPECIFIED
 }
