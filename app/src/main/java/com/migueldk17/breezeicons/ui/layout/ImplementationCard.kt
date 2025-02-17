@@ -1,5 +1,7 @@
 package com.migueldk17.breezeicons.ui.layout
 
+import android.content.ContentValues.TAG
+import android.util.Log
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -58,6 +60,7 @@ fun ImplementationCard(modifier: Modifier = Modifier){
                     BreezeIcons.Unspecified.IconUnspecified,
                     contentDescription = null
                 )
+                Log.d(TAG, "ImplementationCard: cor do icone verde: ${BreezeIcons.Colors.IconGreen.color}")
             }
 
         }
