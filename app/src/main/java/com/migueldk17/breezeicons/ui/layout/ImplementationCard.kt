@@ -32,27 +32,27 @@ fun ImplementationCard(modifier: Modifier = Modifier){
                 horizontalArrangement = Arrangement.SpaceEvenly
             ) {
                 BreezeIcon(
-                    BreezeIcons.Linear.BookLinear,
+                    BreezeIcons.Linear.SchoolLearning.BookLinear,
                     contentDescription = null,
                     modifier = Modifier.size(width = 41.dp, height = 32.dp)
                 )
                 BreezeIcon(
-                    BreezeIcons.Linear.GroupLinear,
+                    BreezeIcons.Linear.Delivery.GroupLinear,
                     contentDescription = null,
                     modifier = Modifier.size(width = 41.dp, height = 32.dp)
                 )
                 BreezeIcon(
-                    BreezeIcons.Linear.GlobeLinear,
+                    BreezeIcons.Linear.Location.GlobeLinear,
                     contentDescription = null,
                     modifier = Modifier.size(width = 41.dp, height = 32.dp)
                 )
                 BreezeIcon(
-                    BreezeIcons.Linear.CarLinear,
+                    BreezeIcons.Linear.Mobility.CarLinear,
                     contentDescription = null,
                     modifier = Modifier.size(width = 41.dp, height = 32.dp)
                 )
                 BreezeIcon(
-                    BreezeIcons.Linear.CloudLinear,
+                    BreezeIcons.Linear.Weather.CloudLinear,
                     contentDescription = null,
                     modifier = Modifier.size(width = 41.dp, height = 32.dp)
                 )
