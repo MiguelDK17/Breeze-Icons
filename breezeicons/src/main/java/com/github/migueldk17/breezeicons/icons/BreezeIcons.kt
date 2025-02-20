@@ -25,7 +25,14 @@ object BreezeIcons {
                 ImageVector.vectorResource(R.drawable.google),
                 enum = BreezeIconsEnum.GOOGLE_LINEAR
             )
+            val GooglePlayLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.google_play),
+                enum = BreezeIconsEnum.GOOGLE_PLAY_LINEAR
+            )
         }
+
         object Essetional {
             val DiscoverLinear: BreezeIconsType
                 @Composable
@@ -34,6 +41,7 @@ object BreezeIcons {
                     enum = BreezeIconsEnum.DISCOVER_LINEAR)
 
         }
+
         object Delivery {
             val GroupLinear: BreezeIconsType
                 @Composable
@@ -71,6 +79,12 @@ object BreezeIcons {
                 ImageVector.vectorResource(R.drawable.bus),
                 enum = BreezeIconsEnum.BUS_LINEAR
             )
+            val GasStationLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.gas_station),
+                enum = BreezeIconsEnum.GAS_STATION_LINEAR
+            )
         }
 
         object SchoolLearning {
@@ -89,6 +103,7 @@ object BreezeIcons {
                     ImageVector.vectorResource(R.drawable.ic_key),
                     enum = BreezeIconsEnum.KEY_LINEAR)
         }
+
         object Shop {
             val Bag2: BreezeIconsType
             @Composable
@@ -107,6 +122,22 @@ object BreezeIcons {
             )
         }
 
+        object VideoAudioImage {
+            val ForwardLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.forward),
+                enum = BreezeIconsEnum.FORWARD_LINEAR
+
+            )
+            val VideoCircleLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.ic_video_circle),
+                enum = BreezeIconsEnum.VIDEO_CIRCLE_LINEAR
+            )
+        }
+
         object Weather {
             val CloudLinear: BreezeIconsType
                 @Composable
@@ -122,19 +153,6 @@ object BreezeIcons {
                 )
 
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 
