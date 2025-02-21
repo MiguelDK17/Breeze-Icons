@@ -21,6 +21,9 @@ enum class BreezeIconsEnum {
     GOOGLE_LINEAR,
     GOOGLE_PLAY_LINEAR,
     VIDEO_CIRCLE_LINEAR,
+    HOME_LINEAR,
+    PAPERBIN_LINEAR,
+    SETTINGS_LINEAR,
 
     //icones Coloridos
     ICON_ORANGE,

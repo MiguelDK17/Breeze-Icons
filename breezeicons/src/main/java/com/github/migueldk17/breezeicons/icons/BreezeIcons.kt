@@ -12,6 +12,15 @@ object BreezeIcons {
     //Icones Lineares
     object Linear {
 
+        object Building {
+            val HomeLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.home),
+                enum = BreezeIconsEnum.HOME_LINEAR
+            )
+        }
+
         object Company {
             val FacebookLinear: BreezeIconsType
             @Composable
@@ -39,6 +48,13 @@ object BreezeIcons {
                 get() = BreezeIconsType.LinearIcon(
                     ImageVector.vectorResource(R.drawable.ic_discover),
                     enum = BreezeIconsEnum.DISCOVER_LINEAR)
+
+            val PaperBinLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.paper_bin),
+                enum = BreezeIconsEnum.PAPERBIN_LINEAR
+            )
 
         }
 
@@ -102,6 +118,15 @@ object BreezeIcons {
                 get() = BreezeIconsType.LinearIcon(
                     ImageVector.vectorResource(R.drawable.ic_key),
                     enum = BreezeIconsEnum.KEY_LINEAR)
+        }
+
+        object Settings {
+            val SettingsLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.settings),
+                enum = BreezeIconsEnum.SETTINGS_LINEAR
+            )
         }
 
         object Shop {
