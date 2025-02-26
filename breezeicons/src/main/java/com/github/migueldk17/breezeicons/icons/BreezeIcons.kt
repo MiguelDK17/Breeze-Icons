@@ -76,6 +76,30 @@ object BreezeIcons {
                 )
         }
 
+        object Like {
+            val LikeLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                icon = ImageVector.vectorResource(R.drawable.like),
+                enum = BreezeIconsEnum.LIKE_LINEAR
+            )
+        }
+
+        object Messages {
+            val ChatLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.chat__square),
+                enum = BreezeIconsEnum.CHAT_SQUARE_LINEAR
+            )
+            val ShareLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                icon = ImageVector.vectorResource(R.drawable.forward),
+                enum = BreezeIconsEnum.FORWARD_LINEAR
+            )
+        }
+
         object Mobility {
             val CarLinear: BreezeIconsType
                 @Composable
@@ -151,8 +175,8 @@ object BreezeIcons {
             val ForwardLinear: BreezeIconsType
             @Composable
             get() = BreezeIconsType.LinearIcon(
-                ImageVector.vectorResource(R.drawable.forward),
-                enum = BreezeIconsEnum.FORWARD_LINEAR
+                ImageVector.vectorResource(R.drawable.forward_play),
+                enum = BreezeIconsEnum.FORWARD_PLAYER_LINEAR
 
             )
             val VideoCircleLinear: BreezeIconsType

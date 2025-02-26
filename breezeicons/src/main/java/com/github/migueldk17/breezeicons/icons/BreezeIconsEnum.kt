@@ -16,7 +16,7 @@ enum class BreezeIconsEnum {
     BAG2_LINEAR,
     CALENDAR_LINEAR,
     FACEBOOK_LINEAR,
-    FORWARD_LINEAR,
+    FORWARD_PLAYER_LINEAR,
     GAS_STATION_LINEAR,
     GOOGLE_LINEAR,
     GOOGLE_PLAY_LINEAR,
@@ -24,6 +24,9 @@ enum class BreezeIconsEnum {
     HOME_LINEAR,
     PAPERBIN_LINEAR,
     SETTINGS_LINEAR,
+    LIKE_LINEAR,
+    FORWARD_LINEAR,
+    CHAT_SQUARE_LINEAR,
 
     //icones Coloridos
     ICON_ORANGE,
