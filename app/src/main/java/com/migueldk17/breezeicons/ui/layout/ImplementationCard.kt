@@ -60,7 +60,7 @@ fun ImplementationCard(modifier: Modifier = Modifier){
                     BreezeIcons.Unspecified.IconUnspecified,
                     contentDescription = null
                 )
-                Log.d(TAG, "ImplementationCard: cor do icone verde: ${BreezeIcons.Colors.IconGreen.color}")
+                Log.d(TAG, "ImplementationCard: cor do icone verde: ${BreezeIcons.Colors.Vibrant.IconGreen.color}")
             }
 
         }
