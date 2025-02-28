@@ -28,12 +28,33 @@ enum class BreezeIconsEnum {
     FORWARD_LINEAR,
     CHAT_SQUARE_LINEAR,
 
-    //icones Coloridos
-    ICON_ORANGE,
-    ICON_YELLOW,
-    ICON_GREEN,
-    ICON_GREEN_CYAN,
-    ICON_TURQUOISE,
+    //----------------icones Coloridos -------------------
+
+    //-------------- icones vibrantes --------------------
+    ICON_ORANGE_VIBRANT,
+    ICON_YELLOW_VIBRANT,
+    ICON_GREEN_VIBRANT,
+    ICON_GREEN_CYAN_VIBRANT,
+    ICON_TURQUOISE_VIBRANT,
+    ICON_BLUE_VIBRANT,
+    ICON_BLUE_ROYAL_VIBRANT,
+    ICON_MAGENTA_VIBRANT,
+    ICON_PINK_VIBRANT,
+    ICON_PURPLE_VIBRANT,
+    ICON_RED_VIBRANT,
+
+    // Ícones soft
+    ICON_SOFT_BLUE,
+    ICON_SOFT_CYAN,
+    ICON_SOFT_GREEN,
+    ICON_SOFT_GREEN_CYAN,
+    ICON_SOFT_MAGENTA,
+    ICON_SOFT_ORANGE,
+    ICON_SOFT_PINK,
+    ICON_SOFT_PURPLE,
+    ICON_SOFT_RED,
+    ICON_SOFT_ROYAL_BLUE,
+    ICON_SOFT_YELLOW,
 
     //Icone não especificado
     ICON_UNSPECIFIED

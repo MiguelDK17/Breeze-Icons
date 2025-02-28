@@ -207,45 +207,138 @@ object BreezeIcons {
 
     //Icones de Cores
     object Colors {
-        val IconOrange: BreezeIconsType
-            @Composable
-            get() = BreezeIconsType.ColorIcon(
-                icon = ImageVector.vectorResource(R.drawable.icon_orange),
-                color = Color(0xFFF8C543),
-                enum = BreezeIconsEnum.ICON_ORANGE
-            )
 
-        val IconYellow: BreezeIconsType
-            @Composable
-            get() = BreezeIconsType.ColorIcon(
-                icon = ImageVector.vectorResource(R.drawable.icon_yellow),
-                color = Color(0xFFF5F843),
-                enum = BreezeIconsEnum.ICON_YELLOW
-            )
+        object Vibrant {
+            val IconOrange: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_orange),
+                    color = Color(0xFFF8C543),
+                    enum = BreezeIconsEnum.ICON_ORANGE_VIBRANT
+                )
 
-        val IconGreen: BreezeIconsType
-            @Composable
-            get() = BreezeIconsType.ColorIcon(
-                icon = ImageVector.vectorResource(R.drawable.icon_green),
-                color = Color(0xFF6DED57),
-                enum = BreezeIconsEnum.ICON_GREEN
-            )
+            val IconYellow: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_yellow),
+                    color = Color(0xFFF5F843),
+                    enum = BreezeIconsEnum.ICON_YELLOW_VIBRANT
+                )
 
-        val IconGreenCyan: BreezeIconsType
-            @Composable
-            get() = BreezeIconsType.ColorIcon(
-                icon = ImageVector.vectorResource(R.drawable.icon_green_cyan),
-                color = Color(0xFF43F89D),
-                enum = BreezeIconsEnum.ICON_GREEN_CYAN
-            )
+            val IconGreen: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_green),
+                    color = Color(0xFF6DED57),
+                    enum = BreezeIconsEnum.ICON_GREEN_VIBRANT
+                )
 
-        val IconTurquoise: BreezeIconsType
-            @Composable
-            get() = BreezeIconsType.ColorIcon(
-                icon = ImageVector.vectorResource(R.drawable.icon_turquoise),
-                color = Color(0xFF43F8D4),
-                enum = BreezeIconsEnum.ICON_TURQUOISE
-            )
+            val IconGreenCyan: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_green_cyan),
+                    color = Color(0xFF43F89D),
+                    enum = BreezeIconsEnum.ICON_GREEN_CYAN_VIBRANT
+                )
+
+            val IconTurquoise: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_turquoise),
+                    color = Color(0xFF43F8D4),
+                    enum = BreezeIconsEnum.ICON_TURQUOISE_VIBRANT
+                )
+            val IconBlue: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_blue),
+                    color = Color(0xFF3498DB),
+                    enum = BreezeIconsEnum.ICON_BLUE_VIBRANT
+                )
+
+            val IconPurple: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_purple),
+                    color = Color(0xFF9B59B6),
+                    enum = BreezeIconsEnum.ICON_PURPLE_VIBRANT
+                )
+
+            val IconRed: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_red),
+                    color = Color(0xFFE74C3C),
+                    enum = BreezeIconsEnum.ICON_RED_VIBRANT
+                )
+
+            val RoyalBlue: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_blue_royal),
+                    color = Color(0xFF1565C0),
+                    enum = BreezeIconsEnum.ICON_BLUE_ROYAL_VIBRANT
+                )
+
+            val IconPink: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_pink),
+                    color = Color(0xFFD81B60),
+                    enum = BreezeIconsEnum.ICON_PINK_VIBRANT
+                )
+
+            val IconMagenta: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_magenta),
+                    color = Color(0xFFC2185B),
+                    enum = BreezeIconsEnum.ICON_MAGENTA_VIBRANT
+                )
+        }
+        object Soft{
+            val IconOrange: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_orange),
+                    color = Color(0xFFF8C543),
+                    enum = BreezeIconsEnum.ICON_ORANGE_VIBRANT
+                )
+
+            val IconYellow: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_yellow),
+                    color = Color(0xFFF5F843),
+                    enum = BreezeIconsEnum.ICON_YELLOW_VIBRANT
+                )
+
+            val IconGreen: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_green),
+                    color = Color(0xFF6DED57),
+                    enum = BreezeIconsEnum.ICON_GREEN_VIBRANT
+                )
+
+            val IconGreenCyan: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_green_cyan),
+                    color = Color(0xFF43F89D),
+                    enum = BreezeIconsEnum.ICON_GREEN_CYAN_VIBRANT
+                )
+
+            val IconTurquoise: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.ColorIcon(
+                    icon = ImageVector.vectorResource(R.drawable.icon_turquoise),
+                    color = Color(0xFF43F8D4),
+                    enum = BreezeIconsEnum.ICON_TURQUOISE_VIBRANT
+                )
+
+
+        }
     }
 
     object Unspecified {
