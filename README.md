@@ -24,7 +24,7 @@ Using Breeze Icons in your project is simple with JitPack.
 
 ```gradle
     dependencies {
-    implementation 'com.github.MiguelDK17:Breeze-Icons:v1.0.0'
+    implementation 'com.github.MiguelDK17:Breeze-Icons:$libVersion'
 	}
 ```
 
