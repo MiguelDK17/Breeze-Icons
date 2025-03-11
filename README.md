@@ -24,7 +24,7 @@ Using Breeze Icons in your project is simple with JitPack.
 
 ```gradle
     dependencies {
-    implementation 'com.github.MiguelDK17:Breeze-Icons:v1.0.0'
+    implementation 'com.github.MiguelDK17:Breeze-Icons:$latestVersion'
 	}
 ```
 
@@ -34,14 +34,14 @@ The BreezeIcon component is responsible for rendering icons. It works similarly 
 
 ```kotlin
     BreezeIcon(
-        BreezeIcons.Linear.BookLinear,
+        BreezeIcons.Linear.SchoolLearning.BookLinear,
         contentDescription = "this is a content description" //Can also be null
         )
 ```
 You can also customize the color and size:
 ```kotlin
 BreezeIcon(
-        BreezeIcons.Linear.BookLinear,
+        BreezeIcons.Linear.SchoolLearning.BookLinear,
         contentDescription = null,
         modifier = Modifier.size(width = 41.dp, height = 32.dp),
         color = Color.Blue
