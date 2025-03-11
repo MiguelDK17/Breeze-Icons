@@ -46,6 +46,7 @@ fun ImplementationCard(modifier: Modifier = Modifier){
                     contentDescription = null,
                     modifier = Modifier.size(width = 41.dp, height = 32.dp)
                 )
+
                 BreezeIcon(
                     BreezeIcons.Linear.Mobility.CarLinear,
                     contentDescription = null,
