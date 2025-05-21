@@ -14,6 +14,12 @@ object BreezeIcons {
     object Linear {
 
         object Building {
+            val Hospital: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.hospital),
+                enum = BreezeIconsEnum.HOSPITAL_LINEAR
+            )
             val HomeLinear: BreezeIconsType
             @Composable
             get() = BreezeIconsType.LinearIcon(
@@ -43,6 +49,21 @@ object BreezeIcons {
             )
         }
 
+        object ElectronicDevices {
+            val Airpods: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.airpods),
+                enum = BreezeIconsEnum.AIRPODS_LINEAR
+            )
+            val HeadphonesRound: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.headphones_round),
+                enum = BreezeIconsEnum.HEADPHONES_ROUND_LINEAR
+            )
+        }
+
         object Essetional {
             val DiscoverLinear: BreezeIconsType
                 @Composable
@@ -50,7 +71,7 @@ object BreezeIcons {
                     ImageVector.vectorResource(R.drawable.ic_discover),
                     enum = BreezeIconsEnum.DISCOVER_LINEAR)
 
-            val InfoCircleLinear: BreezeIconsType
+            val InfoCircle: BreezeIconsType
             @Composable
             get() = BreezeIconsType.LinearIcon(
                 ImageVector.vectorResource(R.drawable.info_circle),
@@ -64,6 +85,15 @@ object BreezeIcons {
                 enum = BreezeIconsEnum.PAPERBIN_LINEAR
             )
 
+        }
+
+        object Files {
+            val FileText: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.file_text),
+                enum = BreezeIconsEnum.FILE_TEXT_LINEAR
+            )
         }
 
         object Delivery {
