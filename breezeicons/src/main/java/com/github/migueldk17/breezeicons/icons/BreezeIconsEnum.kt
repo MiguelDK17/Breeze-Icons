@@ -27,6 +27,12 @@ enum class BreezeIconsEnum {
     LIKE_LINEAR,
     FORWARD_LINEAR,
     CHAT_SQUARE_LINEAR,
+    EDIT_LINEAR,
+    INFO_CIRCLE_LINEAR,
+    AIRPODS_LINEAR,
+    FILE_TEXT,
+    HEADPHONES_ROUND_LINEAR,
+    HOSPITAL_LINEAR,
 
     //----------------icones Coloridos -------------------
 

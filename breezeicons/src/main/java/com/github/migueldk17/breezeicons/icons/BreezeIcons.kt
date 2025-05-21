@@ -9,6 +9,7 @@ import com.github.migueldk17.breezeicons.R
 //Object que usa os icones
 object BreezeIcons {
 
+    object Essentials
     //Icones Lineares
     object Linear {
 
@@ -48,6 +49,13 @@ object BreezeIcons {
                 get() = BreezeIconsType.LinearIcon(
                     ImageVector.vectorResource(R.drawable.ic_discover),
                     enum = BreezeIconsEnum.DISCOVER_LINEAR)
+
+            val InfoCircleLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.info_circle),
+                enum = BreezeIconsEnum.INFO_CIRCLE_LINEAR
+            )
 
             val PaperBinLinear: BreezeIconsType
             @Composable
@@ -159,6 +167,15 @@ object BreezeIcons {
             get() = BreezeIconsType.LinearIcon(
                 ImageVector.vectorResource(R.drawable.bag_2),
                 enum = BreezeIconsEnum.BAG2_LINEAR
+            )
+        }
+
+        object Software {
+            val EditLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.edit),
+                enum = BreezeIconsEnum.EDIT_LINEAR
             )
         }
 
