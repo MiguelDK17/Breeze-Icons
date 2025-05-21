@@ -1,3 +1,5 @@
+@file:Suppress("unused")
+
 package com.github.migueldk17.breezeicons.icons
 
 import androidx.compose.runtime.Composable
@@ -6,11 +8,18 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.vectorResource
 import com.github.migueldk17.breezeicons.R
 
-//Object que usa os icones
+/**
+ * Contains icons from the BreezeIcons Library.
+ *
+ * Organized into different styles, such as ´Linear´ and ´Colors´
+ */
 object BreezeIcons {
 
-    object Essentials
-    //Icones Lineares
+    /**
+     * Icons with thin and consistent lines (Linear style).
+     *
+     * Ideals for minimalists and modern interfaces, where visual lightness is priority
+     */
     object Linear {
 
         object Building {
@@ -252,7 +261,12 @@ object BreezeIcons {
 
     }
 
-    //Icones de Cores
+    /**
+     * Visual icons representing solid colors
+     *
+     * These icons are used as color samples in theme selectors, palettes, or UI customization.
+     * They do not represent actions, they just indicate the selected color
+     */
     object Colors {
 
         object Vibrant {
@@ -436,6 +450,12 @@ object BreezeIcons {
         }
     }
 
+    /**
+     * Object reserved for internal use such typing placeholder.
+     *
+     * This does not represent a visual icon and **will not be rendered in the UI**.
+     * Useful as a default or fallback value.
+     */
     object Unspecified {
         val IconUnspecified: BreezeIconsType
             get() = BreezeIconsType.Unspecified
