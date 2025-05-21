@@ -1,5 +1,13 @@
 package com.github.migueldk17.breezeicons.icons
 
+/**
+ * Enum class that lists all available icons in the BreezeIcons library.
+ *
+ * Each enum constant represents a unique icon and is used for logical identification and type safety
+ * when working with BreezeIconsType.
+ *
+ * Use this enum to refer to specific icons programmatically, for example when setting an icon in the UI.
+ */
 enum class BreezeIconsEnum {
 
     //Icones Lineares
