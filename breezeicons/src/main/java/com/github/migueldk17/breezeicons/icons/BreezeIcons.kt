@@ -56,6 +56,48 @@ object BreezeIcons {
                 ImageVector.vectorResource(R.drawable.google_play),
                 enum = BreezeIconsEnum.GOOGLE_PLAY_LINEAR
             )
+            val WhatsappLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.whatsapp),
+                enum = BreezeIconsEnum.WHATSAPP_LINEAR
+            )
+            val WindowsLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.windows),
+                enum = BreezeIconsEnum.WINDOWS_LINEAR
+            )
+            val AndroidLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.android),
+                enum = BreezeIconsEnum.ANDROID_LINEAR
+            )
+            val SpotifyLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.spotify),
+                enum = BreezeIconsEnum.SPOTIFY_LINEAR
+            )
+
+        }
+        object ContentEdit {
+            val DocumentLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.document),
+                enum = BreezeIconsEnum.DOCUMENT_LINEAR
+            )
+        }
+
+        object DesignTools {
+            val MagicPen: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.magicpen),
+                enum = BreezeIconsEnum.MAGIC_PEN_LINEAR
+            )
         }
 
         object ElectronicDevices {
@@ -172,6 +214,49 @@ object BreezeIcons {
                 ImageVector.vectorResource(R.drawable.gas_station),
                 enum = BreezeIconsEnum.GAS_STATION_LINEAR
             )
+        }
+
+        object Money {
+            val DollarCircle: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.dollar_circle),
+                enum = BreezeIconsEnum.DOLLAR_CIRCLE
+            )
+            val DollarSquare: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.dollar),
+                enum = BreezeIconsEnum.DOLLAR_SQUARE
+            )
+            val MoneyRecive: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.money_recive),
+                enum = BreezeIconsEnum.MONEY_RECIVE
+            )
+            val MoneySend: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.money_send),
+                enum = BreezeIconsEnum.MONEY_SEND
+            )
+        }
+
+        object Notification {
+            val NotificationLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.notification),
+                enum = BreezeIconsEnum.NOTIFICATION_LINEAR
+            )
+            val NotificationBingLinear: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.LinearIcon(
+                ImageVector.vectorResource(R.drawable.notification_bing),
+                enum = BreezeIconsEnum.NOTIFICATION_BING_LINEAR
+            )
+
         }
 
         object SchoolLearning {

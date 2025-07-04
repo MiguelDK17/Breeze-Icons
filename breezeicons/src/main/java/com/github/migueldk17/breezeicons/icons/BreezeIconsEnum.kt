@@ -41,6 +41,19 @@ enum class BreezeIconsEnum {
     FILE_TEXT_LINEAR,
     HEADPHONES_ROUND_LINEAR,
     HOSPITAL_LINEAR,
+    DOLLAR_CIRCLE,
+    DOLLAR_SQUARE,
+    MONEY_RECIVE,
+    MONEY_SEND,
+    MAGIC_PEN_LINEAR,
+    DOCUMENT_LINEAR,
+    NOTIFICATION_LINEAR,
+    NOTIFICATION_BING_LINEAR,
+    SPOTIFY_LINEAR,
+    WHATSAPP_LINEAR,
+    WINDOWS_LINEAR,
+    ANDROID_LINEAR,
+
 
     //----------------icones Coloridos -------------------
 
