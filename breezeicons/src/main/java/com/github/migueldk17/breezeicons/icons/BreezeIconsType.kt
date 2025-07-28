@@ -21,7 +21,7 @@ sealed class BreezeIconsType(val enum: BreezeIconsEnum = BreezeIconsEnum.ICON_UN
      * @property color Solid color that the icon represents
      * @property enum Associated enum for logical identification.
      */
-     class ColorIcon(val icon: ImageVector, override val color: Color, enum: BreezeIconsEnum): BreezeIconsType(enum)
+     internal class ColorIcon(val icon: ImageVector, override val color: Color, enum: BreezeIconsEnum): BreezeIconsType(enum)
 
     /**
      * Representing a linear icon(with fine and consistent lines)
@@ -31,7 +31,7 @@ sealed class BreezeIconsType(val enum: BreezeIconsEnum = BreezeIconsEnum.ICON_UN
      * @property icon Icon that will be rendered.
      * @property enum Associated enum for logical identification.
      */
-     class LinearIcon(val icon: ImageVector,  enum: BreezeIconsEnum): BreezeIconsType(enum)
+     internal class NormalIcon(val icon: ImageVector, enum: BreezeIconsEnum): BreezeIconsType(enum)
 
     /**
      * Represents an unspecified icon state.
