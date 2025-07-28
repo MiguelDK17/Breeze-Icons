@@ -9,7 +9,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.github.migueldk17.breezeicons.icons.BreezeIconsType
 
 @Composable
 fun BreezeIcon(
@@ -20,9 +19,9 @@ fun BreezeIcon(
     ) {
 
     //Converte BreezeIconType para ImageVector e identifica qual o tipo de ícone
-    val icon: ImageVector? = when (breezeIcon) {
+    val normalIcon: ImageVector? = when (breezeIcon) {
         is BreezeIconsType.ColorIcon -> breezeIcon.icon
-        is BreezeIconsType.LinearIcon -> breezeIcon.icon
+        is BreezeIconsType.NormalIcon -> breezeIcon.icon
         is BreezeIconsType.Unspecified -> null
     }
 
@@ -33,7 +32,7 @@ fun BreezeIcon(
             Color.Unspecified // Mantém as cores originais
         }
         //Caso o icone seja Linear e a cor for passada como parametro da função a cor passada será aplicada ao icone
-        breezeIcon is BreezeIconsType.LinearIcon && color != Color.Unspecified -> {
+        breezeIcon is BreezeIconsType.NormalIcon && color != Color.Unspecified -> {
             color
         }
         //Caso o icone seja diferente de ColorIcon e nenhuma cor for passada como parametro da função a cor estabelecida será a onSurface
@@ -43,9 +42,9 @@ fun BreezeIcon(
 
     }
     //Icon padrão do Jetpack Compose com as definições já filtradas e estabelecidas
-    if (icon != null) {
+    if (normalIcon != null) {
         Icon(
-            imageVector = icon,
+            imageVector = normalIcon,
             contentDescription = contentDescription,
             modifier = modifier,
             tint = tint
