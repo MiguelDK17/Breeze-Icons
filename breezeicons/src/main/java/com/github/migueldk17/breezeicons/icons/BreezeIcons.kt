@@ -22,6 +22,49 @@ object BreezeIcons {
      */
     object Linear {
 
+        object Arrows {
+            val AltArrowDown: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.alt_arrow_down),
+                enum = BreezeIconsEnum.ALT_ARROW_DOWN
+            )
+            val AltArrowLeft: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.alt_arrow_left),
+                enum = BreezeIconsEnum.ALT_ARROW_LEFT
+            )
+            val AltArrowRight: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.alt_arrow_right),
+                enum = BreezeIconsEnum.ALT_ARROW_RIGHT
+            )
+            val AltArrowUp: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.alt_arrow_up),
+                enum = BreezeIconsEnum.ALT_ARROW_UP
+            )
+
+            val Refresh: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.refresh),
+                enum = BreezeIconsEnum.REFRESH_LINEAR
+            )
+
+            val Restart: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.restart),
+                enum = BreezeIconsEnum.RESTART_LINEAR
+            )
+
+
+        }
+
         object Building {
             val Hospital: BreezeIconsType
             @Composable
@@ -307,6 +350,29 @@ object BreezeIcons {
                 ImageVector.vectorResource(R.drawable.money_send_linear),
                 enum = BreezeIconsEnum.MONEY_SEND_LINEAR
             )
+        }
+
+        object Nature {
+            val ChristmasTree: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.NormalIcon(
+                    ImageVector.vectorResource(R.drawable.christmas_tree),
+                    enum = BreezeIconsEnum.CHRISTMAS_TREE
+                )
+
+            val Recycle: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.NormalIcon(
+                    ImageVector.vectorResource(R.drawable.recycle),
+                    enum = BreezeIconsEnum.RECYCLE_LINEAR
+                )
+
+            val Umbrella: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.NormalIcon(
+                    ImageVector.vectorResource(R.drawable.umbrella),
+                    enum = BreezeIconsEnum.UMBRELLA_LINEAR
+                )
         }
 
         object Notification {
