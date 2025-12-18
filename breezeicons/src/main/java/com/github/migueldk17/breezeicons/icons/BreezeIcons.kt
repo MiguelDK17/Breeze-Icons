@@ -241,6 +241,12 @@ object BreezeIcons {
         }
 
         object FoodKitchen {
+            val ChefHat: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.chef_hat),
+                enum = BreezeIconsEnum.CHEF_HAT_LINEAR
+            )
             val TeaCup: BreezeIconsType
                 @Composable
                 get() = BreezeIconsType.NormalIcon(
@@ -546,14 +552,6 @@ object BreezeIcons {
 
         }
 
-        object FoodKitchen {
-            val ChefHat: BreezeIconsType
-                @Composable
-                get() = BreezeIconsType.NormalIcon(
-                    ImageVector.vectorResource(R.drawable.chef_hat),
-                    enum = BreezeIconsEnum.CHEF_HAT_LINEAR
-                )
-        }
 
         object Delivery {
             val Group: BreezeIconsType
