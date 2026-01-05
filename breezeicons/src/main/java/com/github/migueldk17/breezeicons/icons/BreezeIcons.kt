@@ -22,8 +22,26 @@ object BreezeIcons {
      */
     object Linear {
 
+        object All {
+            val icons: List<BreezeIconsType>
+            @Composable
+            get() = buildList {
+                addAll(Arrows.All)
+            }
+        }
+
 
         object Arrows {
+            val All: List<BreezeIconsType>
+            @Composable
+            get() = listOf(
+                AltArrowDown,
+                AltArrowLeft,
+                AltArrowRight,
+                AltArrowUp,
+                Refresh,
+                Restart
+            )
             val AltArrowDown: BreezeIconsType
                 @Composable
                 get() = BreezeIconsType.NormalIcon(
@@ -203,6 +221,12 @@ object BreezeIcons {
                     ImageVector.vectorResource(R.drawable.hanger),
                     enum = BreezeIconsEnum.HANGER_LINEAR
                 )
+            val MenuDots: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.menu_dots),
+                    enum = BreezeIconsEnum.MENU_DOTS
+            )
 
             val PaperBinLinear: BreezeIconsType
                 @Composable
@@ -229,6 +253,12 @@ object BreezeIcons {
                     ImageVector.vectorResource(R.drawable.t_shirt),
                     enum = BreezeIconsEnum.T_SHIRT_LINEAR
                 )
+            val TrafficEconomy: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.traffic_economy),
+                enum = BreezeIconsEnum.TRAFFIC_ECONOMY
+            )
         }
 
         object Files {
@@ -360,6 +390,12 @@ object BreezeIcons {
                     ImageVector.vectorResource(R.drawable.money_send_linear),
                     enum = BreezeIconsEnum.MONEY_SEND_LINEAR
                 )
+            val VerifiedCheck: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.verified_check),
+                enum = BreezeIconsEnum.VERIFIED_CHECK
+            )
         }
 
         object Nature {

@@ -31,6 +31,7 @@ fun ImplementationCard(modifier: Modifier = Modifier){
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.SpaceEvenly
             ) {
+
                 BreezeIcon(
                     BreezeIcons.Linear.SchoolLearning.BookLinear,
                     contentDescription = null,
