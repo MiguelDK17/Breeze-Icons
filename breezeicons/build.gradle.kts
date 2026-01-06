@@ -39,6 +39,15 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+
+    tasks.register<Exec>("generateIcons") {
+        workingDir = rootDir
+        commandLine("python", "scripts/script.py")
+    }
+
+    tasks.named("preBuild") {
+        dependsOn("generateIcons")
+    }
 }
 
 dependencies {

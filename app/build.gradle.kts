@@ -47,6 +47,16 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+
+    tasks.register<Exec>("generateIcons") {
+        group = "breezeicons"
+        description = "Generates Breeze Icons All files (Linear, Outlined, Colors)"
+
+        commandLine(
+            "python",
+            "${rootProject.projectDir}\\scripts\\script.py"
+        )
+    }
 }
 
 dependencies {

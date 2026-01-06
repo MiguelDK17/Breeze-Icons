@@ -1,4 +1,5 @@
 import re
+import sys
 from pathlib import Path
 
 
@@ -43,6 +44,13 @@ if not KOTLIN_FILE.exists():
 
 CATEGORY_REGEX = re.compile(r'object\s+(\w+)\s*\{')
 ICON_REGEX = re.compile(r'val\s+(\w+)\s*:\s*BreezeIconsType')
+
+def ok_symbol():
+    try: 
+        "✔".encode(sys.stdout.encoding)
+        return "✔"
+    except Exception:
+        return "[OK]"
 
 def generate_all_for_style(style, end_maker, output_name, object_name):
     current_category = None
@@ -100,7 +108,7 @@ import androidx.compose.runtime.Composable
 
             f.write("}\n")
 
-        print(f"✔ Generated {len(icons)} icons in {output_name}")
+        print(f"{ok_symbol()} Generated {len(icons)} icons in {output_name}")
 
 
 for cfg in STYLES:
