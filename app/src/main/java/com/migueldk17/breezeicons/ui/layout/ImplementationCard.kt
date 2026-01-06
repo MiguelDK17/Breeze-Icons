@@ -23,6 +23,9 @@ fun ImplementationCard(modifier: Modifier = Modifier){
         .fillMaxSize(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally) {
+
+
+
         Card(modifier = Modifier
             .size(width = 429.dp, height = 80.dp),
             ) {
@@ -31,7 +34,6 @@ fun ImplementationCard(modifier: Modifier = Modifier){
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.SpaceEvenly
             ) {
-
                 BreezeIcon(
                     BreezeIcons.Linear.SchoolLearning.BookLinear,
                     contentDescription = null,

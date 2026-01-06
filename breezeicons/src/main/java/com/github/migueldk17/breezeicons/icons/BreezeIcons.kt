@@ -22,15 +22,6 @@ object BreezeIcons {
      */
     object Linear {
 
-        object All {
-            val icons: List<BreezeIconsType>
-            @Composable
-            get() = buildList {
-                addAll(Arrows.All)
-            }
-        }
-
-
         object Arrows {
             val All: List<BreezeIconsType>
             @Composable
@@ -144,6 +135,7 @@ object BreezeIcons {
                 )
 
         }
+
         object ContentEdit {
             val DocumentLinear: BreezeIconsType
                 @Composable
