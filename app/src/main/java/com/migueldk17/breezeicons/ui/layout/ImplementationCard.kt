@@ -17,13 +17,13 @@ import com.github.migueldk17.breezeicons.icons.BreezeIcon
 import com.github.migueldk17.breezeicons.icons.BreezeIcons
 
 
+
 @Composable
 fun ImplementationCard(modifier: Modifier = Modifier){
     Column(modifier = modifier
         .fillMaxSize(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally) {
-
 
         Card(modifier = Modifier
             .size(width = 429.dp, height = 80.dp),

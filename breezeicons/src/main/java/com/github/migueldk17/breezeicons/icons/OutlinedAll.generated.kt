@@ -4,98 +4,99 @@
 package com.github.migueldk17.breezeicons.icons
 import androidx.compose.runtime.Composable
 
-    object BreezeIconsOutlinedAll {
+@Suppress("unused")
+object BreezeIconsOutlinedAll {
 
-            val Bag
-                @Composable
-                get() = BreezeIcons.Outlined.Shop.Bag
+     val Bag
+            @Composable
+            get() = BreezeIcons.Outlined.Shop.Bag
 
-            val Book
-                @Composable
-                get() = BreezeIcons.Outlined.SchoolLearning.Book
+     val Book
+            @Composable
+            get() = BreezeIcons.Outlined.SchoolLearning.Book
 
-            val Calendar
-                @Composable
-                get() = BreezeIcons.Outlined.Time.Calendar
+     val Calendar
+            @Composable
+            get() = BreezeIcons.Outlined.Time.Calendar
 
-            val Cloud
-                @Composable
-                get() = BreezeIcons.Outlined.Weather.Cloud
+     val Cloud
+            @Composable
+            get() = BreezeIcons.Outlined.Weather.Cloud
 
-            val Discover
-                @Composable
-                get() = BreezeIcons.Outlined.Essetional.Discover
+     val Discover
+            @Composable
+            get() = BreezeIcons.Outlined.Essetional.Discover
 
-            val DollarCircle
-                @Composable
-                get() = BreezeIcons.Outlined.Money.DollarCircle
+     val DollarCircle
+            @Composable
+            get() = BreezeIcons.Outlined.Money.DollarCircle
 
-            val DollarSquare
-                @Composable
-                get() = BreezeIcons.Outlined.Money.DollarSquare
+     val DollarSquare
+            @Composable
+            get() = BreezeIcons.Outlined.Money.DollarSquare
 
-            val Drop
-                @Composable
-                get() = BreezeIcons.Outlined.Weather.Drop
+     val Drop
+            @Composable
+            get() = BreezeIcons.Outlined.Weather.Drop
 
-            val ForwardLinear
-                @Composable
-                get() = BreezeIcons.Outlined.VideoAudioImage.ForwardLinear
+     val ForwardLinear
+            @Composable
+            get() = BreezeIcons.Outlined.VideoAudioImage.ForwardLinear
 
-            val Globe
-                @Composable
-                get() = BreezeIcons.Outlined.Location.Globe
+     val Globe
+            @Composable
+            get() = BreezeIcons.Outlined.Location.Globe
 
-            val Group
-                @Composable
-                get() = BreezeIcons.Outlined.Delivery.Group
+     val Group
+            @Composable
+            get() = BreezeIcons.Outlined.Delivery.Group
 
-            val Hospital
-                @Composable
-                get() = BreezeIcons.Outlined.Building.Hospital
+     val Hospital
+            @Composable
+            get() = BreezeIcons.Outlined.Building.Hospital
 
-            val InfoCircle
-                @Composable
-                get() = BreezeIcons.Outlined.Essetional.InfoCircle
+     val InfoCircle
+            @Composable
+            get() = BreezeIcons.Outlined.Essetional.InfoCircle
 
-            val Key
-                @Composable
-                get() = BreezeIcons.Outlined.Security.Key
+     val Key
+            @Composable
+            get() = BreezeIcons.Outlined.Security.Key
 
-            val Like
-                @Composable
-                get() = BreezeIcons.Outlined.SupportLikeQuestion.Like
+     val Like
+            @Composable
+            get() = BreezeIcons.Outlined.SupportLikeQuestion.Like
 
-            val MagicPen
-                @Composable
-                get() = BreezeIcons.Outlined.DesignTools.MagicPen
+     val MagicPen
+            @Composable
+            get() = BreezeIcons.Outlined.DesignTools.MagicPen
 
-            val MoneyRecive
-                @Composable
-                get() = BreezeIcons.Outlined.Money.MoneyRecive
+     val MoneyRecive
+            @Composable
+            get() = BreezeIcons.Outlined.Money.MoneyRecive
 
-            val MoneySend
-                @Composable
-                get() = BreezeIcons.Outlined.Money.MoneySend
+     val MoneySend
+            @Composable
+            get() = BreezeIcons.Outlined.Money.MoneySend
 
-            val Notification
-                @Composable
-                get() = BreezeIcons.Outlined.Notification.Notification
+     val Notification
+            @Composable
+            get() = BreezeIcons.Outlined.Notification.Notification
 
-            val NotificationBing
-                @Composable
-                get() = BreezeIcons.Outlined.Notification.NotificationBing
+     val NotificationBing
+            @Composable
+            get() = BreezeIcons.Outlined.Notification.NotificationBing
 
-            val PaperBin
-                @Composable
-                get() = BreezeIcons.Outlined.Essetional.PaperBin
+     val PaperBin
+            @Composable
+            get() = BreezeIcons.Outlined.Essetional.PaperBin
 
-            val Settings
-                @Composable
-                get() = BreezeIcons.Outlined.Settings.Settings
+     val Settings
+            @Composable
+            get() = BreezeIcons.Outlined.Settings.Settings
 
-            val VideoCircle
-                @Composable
-                get() = BreezeIcons.Outlined.VideoAudioImage.VideoCircle
+     val VideoCircle
+            @Composable
+            get() = BreezeIcons.Outlined.VideoAudioImage.VideoCircle
 
     }

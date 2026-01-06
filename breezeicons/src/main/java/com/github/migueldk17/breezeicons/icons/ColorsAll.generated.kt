@@ -4,50 +4,51 @@
 package com.github.migueldk17.breezeicons.icons
 import androidx.compose.runtime.Composable
 
-    object BreezeIconsColorsAll {
+@Suppress("unused")
+object BreezeIconsColorsAll {
 
-            val IconBlue
-                @Composable
-                get() = BreezeIcons.Colors.Vibrant.IconBlue
+     val IconBlue
+            @Composable
+            get() = BreezeIcons.Colors.Vibrant.IconBlue
 
-            val IconGreen
-                @Composable
-                get() = BreezeIcons.Colors.Vibrant.IconGreen
+     val IconGreen
+            @Composable
+            get() = BreezeIcons.Colors.Vibrant.IconGreen
 
-            val IconGreenCyan
-                @Composable
-                get() = BreezeIcons.Colors.Vibrant.IconGreenCyan
+     val IconGreenCyan
+            @Composable
+            get() = BreezeIcons.Colors.Vibrant.IconGreenCyan
 
-            val IconMagenta
-                @Composable
-                get() = BreezeIcons.Colors.Vibrant.IconMagenta
+     val IconMagenta
+            @Composable
+            get() = BreezeIcons.Colors.Vibrant.IconMagenta
 
-            val IconOrange
-                @Composable
-                get() = BreezeIcons.Colors.Vibrant.IconOrange
+     val IconOrange
+            @Composable
+            get() = BreezeIcons.Colors.Vibrant.IconOrange
 
-            val IconPink
-                @Composable
-                get() = BreezeIcons.Colors.Vibrant.IconPink
+     val IconPink
+            @Composable
+            get() = BreezeIcons.Colors.Vibrant.IconPink
 
-            val IconPurple
-                @Composable
-                get() = BreezeIcons.Colors.Vibrant.IconPurple
+     val IconPurple
+            @Composable
+            get() = BreezeIcons.Colors.Vibrant.IconPurple
 
-            val IconRed
-                @Composable
-                get() = BreezeIcons.Colors.Vibrant.IconRed
+     val IconRed
+            @Composable
+            get() = BreezeIcons.Colors.Vibrant.IconRed
 
-            val IconTurquoise
-                @Composable
-                get() = BreezeIcons.Colors.Vibrant.IconTurquoise
+     val IconTurquoise
+            @Composable
+            get() = BreezeIcons.Colors.Vibrant.IconTurquoise
 
-            val IconYellow
-                @Composable
-                get() = BreezeIcons.Colors.Vibrant.IconYellow
+     val IconYellow
+            @Composable
+            get() = BreezeIcons.Colors.Vibrant.IconYellow
 
-            val RoyalBlue
-                @Composable
-                get() = BreezeIcons.Colors.Vibrant.RoyalBlue
+     val RoyalBlue
+            @Composable
+            get() = BreezeIcons.Colors.Vibrant.RoyalBlue
 
     }

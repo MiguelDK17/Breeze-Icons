@@ -25,16 +25,6 @@ object BreezeIcons {
         val All get() = BreezeIconsLinearAll
 
         object Arrows {
-            val All: List<BreezeIconsType>
-            @Composable
-            get() = listOf(
-                AltArrowDown,
-                AltArrowLeft,
-                AltArrowRight,
-                AltArrowUp,
-                Refresh,
-                Restart
-            )
             val AltArrowDown: BreezeIconsType
                 @Composable
                 get() = BreezeIconsType.NormalIcon(

@@ -92,16 +92,17 @@ def generate_all_for_style(style, end_maker, output_name, object_name):
 package com.github.migueldk17.breezeicons.icons
 import androidx.compose.runtime.Composable
 
-    object {object_name} {{
+@Suppress("unused")
+object {object_name} {{
 
     """
             )
 
             for icon, category in icons:
                 f.write(
-                    f"""        val {icon}
-                @Composable
-                get() = BreezeIcons.{style}.{category}.{icon}
+                f""" val {icon}
+            @Composable
+            get() = BreezeIcons.{style}.{category}.{icon}
 
     """
             )
