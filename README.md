@@ -1,12 +1,15 @@
 # 🌬️Breeze-Icons
 
 
+
 ## 📕About
 Breeze Icons is a modern icon library designed for Jetpack Compose, featuring a collection of sleek icons (thanks to the [Panda Icons Library](https://www.figma.com/community/file/1331872221749358492/panda-icons-library)). It provides typed icons for seamless integration with Jetpack Compose.
 
 ## 🔧Instalation
 
 Using Breeze Icons in your project is simple with JitPack.
+
+[![](https://jitpack.io/v/MiguelDK17/Breeze-Icons.svg)](https://jitpack.io/#MiguelDK17/Breeze-Icons)
 
 ### 1️⃣Add JitPack to your settings.gradle.kts:
 
