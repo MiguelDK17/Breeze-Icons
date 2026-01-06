@@ -22,6 +22,8 @@ object BreezeIcons {
      */
     object Linear {
 
+        val All get() = BreezeIconsLinearAll
+
         object Arrows {
             val All: List<BreezeIconsType>
             @Composable
@@ -537,6 +539,8 @@ object BreezeIcons {
 
     object Outlined {
 
+        val All  get() = BreezeIconsOutlinedAll
+
         object Building {
             val Hospital: BreezeIconsType
             @Composable
@@ -737,6 +741,8 @@ object BreezeIcons {
      * They do not represent actions, they just indicate the selected color
      */
     object Colors {
+
+        val All = BreezeIconsColorsAll
 
         object Vibrant {
             val IconOrange: BreezeIconsType

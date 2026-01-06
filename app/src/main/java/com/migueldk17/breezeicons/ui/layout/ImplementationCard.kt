@@ -25,7 +25,6 @@ fun ImplementationCard(modifier: Modifier = Modifier){
         horizontalAlignment = Alignment.CenterHorizontally) {
 
 
-
         Card(modifier = Modifier
             .size(width = 429.dp, height = 80.dp),
             ) {
