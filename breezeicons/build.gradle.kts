@@ -40,9 +40,16 @@ android {
         }
     }
 
+    val isWindows = System.getProperty("os.name")
+        .lowercase()
+        .contains("windows")
+
+    val pythonCmd = if (isWindows) "python" else "python3"
+
+
     tasks.register<Exec>("generateIcons") {
         workingDir = rootDir
-        commandLine("python", "scripts/script.py")
+        commandLine(pythonCmd, "scripts/script.py")
     }
 
     tasks.named("preBuild") {
