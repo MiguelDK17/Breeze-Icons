@@ -2,6 +2,6 @@ jdk:
   - openjdk17
 
 before_install:
-  - sudo apt-get update
-  - sudo apt-get install -y python3-pip
-  - python 3 --version
+  - apt-get update
+  - apt-get install -y python3-pip
+  - python3 --version
