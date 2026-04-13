@@ -72,6 +72,9 @@ object BreezeIconsLinearAll {
      val DollarSquare
            @Composable
            get() = BreezeIcons.Linear.Money.DollarSquare           
+     val Donut
+           @Composable
+           get() = BreezeIcons.Linear.FoodKitchen.Donut           
      val DropLinear
            @Composable
            get() = BreezeIcons.Linear.Weather.DropLinear           
@@ -87,6 +90,9 @@ object BreezeIconsLinearAll {
      val ForwardLinear
            @Composable
            get() = BreezeIcons.Linear.VideoAudioImage.ForwardLinear           
+     val Game
+           @Composable
+           get() = BreezeIcons.Linear.ElectronicDevices.Game           
      val Gamepad
            @Composable
            get() = BreezeIcons.Linear.ElectronicDevices.Gamepad           
@@ -120,6 +126,9 @@ object BreezeIconsLinearAll {
      val Hospital
            @Composable
            get() = BreezeIcons.Linear.Building.Hospital           
+     val House
+           @Composable
+           get() = BreezeIcons.Linear.Building.House           
      val InfoCircle
            @Composable
            get() = BreezeIcons.Linear.Essetional.InfoCircle           
@@ -153,6 +162,9 @@ object BreezeIconsLinearAll {
      val PaperBinLinear
            @Composable
            get() = BreezeIcons.Linear.Essetional.PaperBinLinear           
+     val Paw
+           @Composable
+           get() = BreezeIcons.Linear.Essetional.Paw           
      val Recycle
            @Composable
            get() = BreezeIcons.Linear.Nature.Recycle           
@@ -186,6 +198,9 @@ object BreezeIconsLinearAll {
      val TeaCup
            @Composable
            get() = BreezeIcons.Linear.FoodKitchen.TeaCup           
+     val TicketStar
+           @Composable
+           get() = BreezeIcons.Linear.Money.TicketStar           
      val TrafficEconomy
            @Composable
            get() = BreezeIcons.Linear.Essetional.TrafficEconomy           

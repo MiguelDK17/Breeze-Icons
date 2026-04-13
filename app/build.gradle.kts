@@ -1,24 +1,31 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.compose.compiler)
 
 }
 
 android {
     namespace = "com.migueldk17.breezeicons"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.github.migueldk17.breezeicons"
         minSdk = 26
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
-        versionName = "1.0"
+        versionName = "2.2.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
             useSupportLibrary = true
+        }
+    }
+
+    publishing {
+        singleVariant("release") {
+            // Opcional: Descomente abaixo se a sua publicação exigir o código-fonte ou Javadoc
+            // withSourcesJar()
+            // withJavadocJar()
         }
     }
 
@@ -35,9 +42,6 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    kotlinOptions {
-        jvmTarget = "11"
-    }
     buildFeatures {
         compose = true
     }
@@ -48,6 +52,7 @@ android {
         }
     }
 
+
     tasks.register<Exec>("generateIcons") {
         group = "breezeicons"
         description = "Generates Breeze Icons All files (Linear, Outlined, Colors)"
@@ -56,6 +61,13 @@ android {
             "python",
             "${rootProject.projectDir}\\scripts\\script.py"
         )
+    }
+}
+
+kotlin {
+    jvmToolchain(11)
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
     }
 }
 
