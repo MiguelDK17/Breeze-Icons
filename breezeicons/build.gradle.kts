@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.compose.compiler)
+    id("maven-publish")
 }
 
 android {
@@ -22,6 +23,7 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -30,6 +32,7 @@ android {
     buildFeatures {
         compose = true
     }
+
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
@@ -42,7 +45,6 @@ android {
 
     val pythonCmd = if (isWindows) "python" else "python3"
 
-
     tasks.register<Exec>("generateIcons") {
         workingDir = rootDir
         commandLine(pythonCmd, "scripts/script.py")
@@ -50,6 +52,14 @@ android {
 
     tasks.named("preBuild") {
         dependsOn("generateIcons")
+    }
+
+    // Configuração do componente para o JitPack ler
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
     }
 }
 
@@ -61,12 +71,10 @@ kotlin {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(platform(libs.androidx.compose.bom))
-    implementation(libs.androidx.material3.android)
     implementation(libs.androidx.material3.android)
     implementation(libs.androidx.runtime.android)
     implementation(libs.androidx.ui.android)
@@ -76,4 +84,34 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 }
 
+// Bloco de publicação final, isolado na raiz do arquivo
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            // Garante que os componentes do Android já foram gerados antes de ler
+            afterEvaluate {
+                from(components["release"])
+            }
 
+            groupId = "com.github.migueldk17"
+            artifactId = "breezeicons"
+            version = "2.2.5"
+        }
+    }
+
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/MiguelDK17/Breeze-Icons")
+            credentials {
+                username = project.findProperty("gpr.user") as String? ?: ""
+                password = project.findProperty("gpr.password") as String? ?: ""
+            }
+        }
+
+        maven {
+            name = "Local"
+            url = uri(layout.buildDirectory.dir("mavenLocal"))
+        }
+    }
+}

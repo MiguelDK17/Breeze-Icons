@@ -1,7 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.compose.compiler)
-
 }
 
 android {
@@ -18,14 +17,6 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
             useSupportLibrary = true
-        }
-    }
-
-    publishing {
-        singleVariant("release") {
-            // Opcional: Descomente abaixo se a sua publicação exigir o código-fonte ou Javadoc
-            // withSourcesJar()
-            // withJavadocJar()
         }
     }
 
@@ -64,12 +55,14 @@ android {
     }
 }
 
+
 kotlin {
     jvmToolchain(11)
     compilerOptions {
         jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
     }
 }
+
 
 dependencies {
 
