@@ -1,7 +1,6 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.compose.compiler)
-    id("maven-publish")
 }
 
 android {
@@ -77,33 +76,4 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 }
 
-publishing {
-    publications {
-        create<MavenPublication>("release") {
-            groupId = "com.github.migueldk17"
-            artifactId = "breezeicons"
-            version = "1.0.0"
 
-            afterEvaluate {
-                from(components["release"])
-            }
-        }
-    }
-
-    repositories {
-        maven {
-            name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/MiguelDK17/Breeze-Icons")
-            credentials {
-                username = project.findProperty("gpr.user") as String
-                password = project.findProperty("gpr.password") as String
-            }
-        }
-
-        //Para publicar localmente
-        maven {
-            name = "Local"
-            url = uri("${rootProject.buildDir}/mavenLocal")
-        }
-    }
-}
