@@ -631,7 +631,7 @@ object BreezeIcons {
             val SearchNormal: BreezeIconsType
                 @Composable
                 get() = BreezeIconsType.NormalIcon(
-                    ImageVector.vectorResource(R.drawable.search_normal),
+                    ImageVector.vectorResource(R.drawable.search),
                     enum = BreezeIconsEnum.SEARCH_NORMAL_LINEAR
                 )
         }
