@@ -30,15 +30,24 @@ object BreezeIconsLinearAll {
      val Bag2
            @Composable
            get() = BreezeIcons.Linear.Shop.Bag2           
+     val Bank
+           @Composable
+           get() = BreezeIcons.Linear.Building.Bank           
      val BookLinear
            @Composable
            get() = BreezeIcons.Linear.SchoolLearning.BookLinear           
+     val Box
+           @Composable
+           get() = BreezeIcons.Linear.Delivery.Box           
      val BusLinear
            @Composable
            get() = BreezeIcons.Linear.Mobility.BusLinear           
      val CalendarLinear
            @Composable
            get() = BreezeIcons.Linear.Time.CalendarLinear           
+     val CallLinear
+           @Composable
+           get() = BreezeIcons.Linear.Call.CallLinear           
      val CarLinear
            @Composable
            get() = BreezeIcons.Linear.Mobility.CarLinear           
@@ -54,9 +63,45 @@ object BreezeIconsLinearAll {
      val ChristmasTree
            @Composable
            get() = BreezeIcons.Linear.Nature.ChristmasTree           
+     val ClockLinear
+           @Composable
+           get() = BreezeIcons.Linear.Clock.ClockLinear           
+     val Cloud
+           @Composable
+           get() = BreezeIcons.Linear.Weather.Cloud           
+     val CloudAdd
+           @Composable
+           get() = BreezeIcons.Linear.DevicesElectronics.CloudAdd           
+     val CloudCross
+           @Composable
+           get() = BreezeIcons.Linear.Weather.CloudCross           
+     val CloudDrizzle
+           @Composable
+           get() = BreezeIcons.Linear.Weather.CloudDrizzle           
+     val CloudLightning
+           @Composable
+           get() = BreezeIcons.Linear.Weather.CloudLightning           
      val CloudLinear
            @Composable
            get() = BreezeIcons.Linear.Weather.CloudLinear           
+     val CloudMinus
+           @Composable
+           get() = BreezeIcons.Linear.Weather.CloudMinus           
+     val CloudNotif
+           @Composable
+           get() = BreezeIcons.Linear.Weather.CloudNotif           
+     val CloudPlus
+           @Composable
+           get() = BreezeIcons.Linear.Weather.CloudPlus           
+     val CloudRemove
+           @Composable
+           get() = BreezeIcons.Linear.DevicesElectronics.CloudRemove           
+     val CloudSnow
+           @Composable
+           get() = BreezeIcons.Linear.Weather.CloudSnow           
+     val CloudSunny
+           @Composable
+           get() = BreezeIcons.Linear.Weather.CloudSunny           
      val ConfettiMinimalistic
            @Composable
            get() = BreezeIcons.Linear.Essetional.ConfettiMinimalistic           
@@ -81,6 +126,12 @@ object BreezeIconsLinearAll {
      val EditLinear
            @Composable
            get() = BreezeIcons.Linear.Software.EditLinear           
+     val Eye
+           @Composable
+           get() = BreezeIcons.Linear.Security.Eye           
+     val EyeSlash
+           @Composable
+           get() = BreezeIcons.Linear.Security.EyeSlash           
      val FacebookLinear
            @Composable
            get() = BreezeIcons.Linear.Company.FacebookLinear           
@@ -123,6 +174,12 @@ object BreezeIconsLinearAll {
      val HomeLinear
            @Composable
            get() = BreezeIcons.Linear.Building.HomeLinear           
+     val HomeTrendDown
+           @Composable
+           get() = BreezeIcons.Linear.Business.HomeTrendDown           
+     val HomeTrendUp
+           @Composable
+           get() = BreezeIcons.Linear.Business.HomeTrendUp           
      val Hospital
            @Composable
            get() = BreezeIcons.Linear.Building.Hospital           
@@ -141,18 +198,27 @@ object BreezeIconsLinearAll {
      val LikeLinear
            @Composable
            get() = BreezeIcons.Linear.SupportLikeQuestion.LikeLinear           
+     val Lock
+           @Composable
+           get() = BreezeIcons.Linear.Security.Lock           
      val MagicPen
            @Composable
            get() = BreezeIcons.Linear.DesignTools.MagicPen           
      val MenuDots
            @Composable
            get() = BreezeIcons.Linear.Essetional.MenuDots           
+     val Microphone
+           @Composable
+           get() = BreezeIcons.Linear.VideoAudioImage.Microphone           
      val MoneyRecive
            @Composable
            get() = BreezeIcons.Linear.Money.MoneyRecive           
      val MoneySend
            @Composable
            get() = BreezeIcons.Linear.Money.MoneySend           
+     val Moon
+           @Composable
+           get() = BreezeIcons.Linear.Weather.Moon           
      val NotificationBingLinear
            @Composable
            get() = BreezeIcons.Linear.Notification.NotificationBingLinear           
@@ -165,6 +231,12 @@ object BreezeIconsLinearAll {
      val Paw
            @Composable
            get() = BreezeIcons.Linear.Essetional.Paw           
+     val Profile
+           @Composable
+           get() = BreezeIcons.Linear.Users.Profile           
+     val Profile2User
+           @Composable
+           get() = BreezeIcons.Linear.Users.Profile2User           
      val Recycle
            @Composable
            get() = BreezeIcons.Linear.Nature.Recycle           
@@ -174,15 +246,27 @@ object BreezeIconsLinearAll {
      val Restart
            @Composable
            get() = BreezeIcons.Linear.Arrows.Restart           
+     val SearchNormal
+           @Composable
+           get() = BreezeIcons.Linear.Search.SearchNormal           
+     val Security
+           @Composable
+           get() = BreezeIcons.Linear.Security.Security           
      val SettingsLinear
            @Composable
            get() = BreezeIcons.Linear.Settings.SettingsLinear           
      val ShareLinear
            @Composable
            get() = BreezeIcons.Linear.Messages.ShareLinear           
+     val ShoppingCart
+           @Composable
+           get() = BreezeIcons.Linear.Shopping.ShoppingCart           
      val Skirt
            @Composable
            get() = BreezeIcons.Linear.Essetional.Skirt           
+     val Slash
+           @Composable
+           get() = BreezeIcons.Linear.Essetional.Slash           
      val Sleeping
            @Composable
            get() = BreezeIcons.Linear.Essetional.Sleeping           
@@ -192,6 +276,9 @@ object BreezeIconsLinearAll {
      val SquareAcademicCap2
            @Composable
            get() = BreezeIcons.Linear.School.SquareAcademicCap2           
+     val Sun
+           @Composable
+           get() = BreezeIcons.Linear.Weather.Sun           
      val TShirt
            @Composable
            get() = BreezeIcons.Linear.Essetional.TShirt           
@@ -204,9 +291,18 @@ object BreezeIconsLinearAll {
      val TrafficEconomy
            @Composable
            get() = BreezeIcons.Linear.Essetional.TrafficEconomy           
+     val TrendDown
+           @Composable
+           get() = BreezeIcons.Linear.Business.TrendDown           
+     val TrendUp
+           @Composable
+           get() = BreezeIcons.Linear.Business.TrendUp           
      val Umbrella
            @Composable
            get() = BreezeIcons.Linear.Nature.Umbrella           
+     val User
+           @Composable
+           get() = BreezeIcons.Linear.Users.User           
      val VerifiedCheck
            @Composable
            get() = BreezeIcons.Linear.Money.VerifiedCheck           
