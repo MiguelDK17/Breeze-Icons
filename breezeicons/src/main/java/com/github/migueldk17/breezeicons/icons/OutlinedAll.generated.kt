@@ -15,6 +15,9 @@ object BreezeIconsOutlinedAll {
      val Calendar
            @Composable
            get() = BreezeIcons.Outlined.Time.Calendar           
+     val ChatRound
+           @Composable
+           get() = BreezeIcons.Outlined.MessagesConversation.ChatRound           
      val Cloud
            @Composable
            get() = BreezeIcons.Outlined.Weather.Cloud           
@@ -78,6 +81,9 @@ object BreezeIconsOutlinedAll {
      val PaperBin
            @Composable
            get() = BreezeIcons.Outlined.Essetional.PaperBin           
+     val Pen
+           @Composable
+           get() = BreezeIcons.Outlined.MessagesConversation.Pen           
      val Repeat
            @Composable
            get() = BreezeIcons.Outlined.Arrow.Repeat           

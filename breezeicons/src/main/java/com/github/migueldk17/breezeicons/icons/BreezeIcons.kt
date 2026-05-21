@@ -68,6 +68,13 @@ object BreezeIcons {
                     enum = BreezeIconsEnum.REFRESH_LINEAR
                 )
 
+            val Repeat: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.repeat_linear),
+                enum = BreezeIconsEnum.REPEAT_LINEAR
+            )
+
             val Restart: BreezeIconsType
                 @Composable
                 get() = BreezeIconsType.NormalIcon(
@@ -448,6 +455,22 @@ object BreezeIcons {
                 get() = BreezeIconsType.NormalIcon(
                     ImageVector.vectorResource(R.drawable.gas_station),
                     enum = BreezeIconsEnum.GAS_STATION_LINEAR
+                )
+        }
+
+        object MessagesConversation {
+            val ChatRound: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.NormalIcon(
+                    icon = ImageVector.vectorResource(R.drawable.chat_round_linear),
+                    enum = BreezeIconsEnum.CHAT_ROUND_LINEAR
+                )
+
+            val Pen: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.NormalIcon(
+                    icon = ImageVector.vectorResource(R.drawable.pen_linear),
+                    enum = BreezeIconsEnum.PEN_LINEAR
                 )
         }
 
@@ -921,6 +944,22 @@ object BreezeIcons {
             get() = BreezeIconsType.NormalIcon(
                 ImageVector.vectorResource(R.drawable.star_outlined),
                 enum = BreezeIconsEnum.STAR_OUTLINED
+            )
+        }
+
+        object MessagesConversation {
+            val ChatRound: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                icon = ImageVector.vectorResource(R.drawable.chat_round_outlined),
+                enum = BreezeIconsEnum.CHAT_ROUND_OUTLINED
+            )
+
+            val Pen: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                icon = ImageVector.vectorResource(R.drawable.pen_outlined),
+                enum = BreezeIconsEnum.PEN_OUTLINED
             )
         }
 

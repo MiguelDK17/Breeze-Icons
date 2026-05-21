@@ -57,6 +57,9 @@ object BreezeIconsLinearAll {
      val ChatLinear
            @Composable
            get() = BreezeIcons.Linear.Messages.ChatLinear           
+     val ChatRound
+           @Composable
+           get() = BreezeIcons.Linear.MessagesConversation.ChatRound           
      val ChefHat
            @Composable
            get() = BreezeIcons.Linear.FoodKitchen.ChefHat           
@@ -237,6 +240,9 @@ object BreezeIconsLinearAll {
      val Paw
            @Composable
            get() = BreezeIcons.Linear.Essetional.Paw           
+     val Pen
+           @Composable
+           get() = BreezeIcons.Linear.MessagesConversation.Pen           
      val Profile
            @Composable
            get() = BreezeIcons.Linear.Users.Profile           
@@ -249,6 +255,9 @@ object BreezeIconsLinearAll {
      val Refresh
            @Composable
            get() = BreezeIcons.Linear.Arrow.Refresh           
+     val Repeat
+           @Composable
+           get() = BreezeIcons.Linear.Arrow.Repeat           
      val Restart
            @Composable
            get() = BreezeIcons.Linear.Arrow.Restart           
