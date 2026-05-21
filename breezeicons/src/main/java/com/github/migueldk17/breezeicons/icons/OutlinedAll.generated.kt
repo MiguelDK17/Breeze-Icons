@@ -30,6 +30,9 @@ object BreezeIconsOutlinedAll {
      val Drop
            @Composable
            get() = BreezeIcons.Outlined.Weather.Drop           
+     val Export
+           @Composable
+           get() = BreezeIcons.Outlined.Arrow.Export           
      val ForwardLinear
            @Composable
            get() = BreezeIcons.Outlined.VideoAudioImage.ForwardLinear           
@@ -39,6 +42,9 @@ object BreezeIconsOutlinedAll {
      val Group
            @Composable
            get() = BreezeIcons.Outlined.Delivery.Group           
+     val Heart
+           @Composable
+           get() = BreezeIcons.Outlined.SupportLikeQuestion.Heart           
      val Hospital
            @Composable
            get() = BreezeIcons.Outlined.Building.Hospital           
@@ -51,6 +57,9 @@ object BreezeIconsOutlinedAll {
      val Like
            @Composable
            get() = BreezeIcons.Outlined.SupportLikeQuestion.Like           
+     val Logout
+           @Composable
+           get() = BreezeIcons.Outlined.Arrow.Logout           
      val MagicPen
            @Composable
            get() = BreezeIcons.Outlined.DesignTools.MagicPen           
@@ -69,9 +78,15 @@ object BreezeIconsOutlinedAll {
      val PaperBin
            @Composable
            get() = BreezeIcons.Outlined.Essetional.PaperBin           
+     val Repeat
+           @Composable
+           get() = BreezeIcons.Outlined.Arrow.Repeat           
      val Settings
            @Composable
            get() = BreezeIcons.Outlined.Settings.Settings           
+     val Star
+           @Composable
+           get() = BreezeIcons.Outlined.SupportLikeQuestion.Star           
      val VideoCircle
            @Composable
            get() = BreezeIcons.Outlined.VideoAudioImage.VideoCircle}

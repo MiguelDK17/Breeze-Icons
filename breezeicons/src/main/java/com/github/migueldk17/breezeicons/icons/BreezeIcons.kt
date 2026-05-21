@@ -24,7 +24,7 @@ object BreezeIcons {
 
         val All get() = BreezeIconsLinearAll
 
-        object Arrows {
+        object Arrow {
             val AltArrowDown: BreezeIconsType
                 @Composable
                 get() = BreezeIconsType.NormalIcon(
@@ -49,7 +49,18 @@ object BreezeIcons {
                     ImageVector.vectorResource(R.drawable.alt_arrow_up),
                     enum = BreezeIconsEnum.ALT_ARROW_UP
                 )
-
+            val Export: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.export_linear),
+                enum = BreezeIconsEnum.EXPORT_LINEAR
+            )
+            val Logout: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.logout_linear),
+                enum = BreezeIconsEnum.LOGOUT_LINEAR
+            )
             val Refresh: BreezeIconsType
                 @Composable
                 get() = BreezeIconsType.NormalIcon(
@@ -94,6 +105,35 @@ object BreezeIcons {
                 )
         }
 
+        object Business {
+            val HomeTrendDown: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.NormalIcon(
+                    ImageVector.vectorResource(R.drawable.home_trend_down),
+                    enum = BreezeIconsEnum.HOME_TREND_DOWN_LINEAR
+                )
+
+            val HomeTrendUp: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.NormalIcon(
+                    ImageVector.vectorResource(R.drawable.home_trend_up),
+                    enum = BreezeIconsEnum.HOME_TREND_UP_LINEAR
+                )
+
+            val TrendDown: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.NormalIcon(
+                    ImageVector.vectorResource(R.drawable.trend_down),
+                    enum = BreezeIconsEnum.TREND_DOWN_LINEAR
+                )
+
+            val TrendUp: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.NormalIcon(
+                    ImageVector.vectorResource(R.drawable.trend),
+                    enum = BreezeIconsEnum.TREND_UP_LINEAR
+                )
+        }
         object Company {
             val FacebookLinear: BreezeIconsType
                 @Composable
@@ -450,35 +490,7 @@ object BreezeIcons {
                 )
         }
 
-        object Business {
-            val HomeTrendDown: BreezeIconsType
-                @Composable
-                get() = BreezeIconsType.NormalIcon(
-                    ImageVector.vectorResource(R.drawable.home_trend_down),
-                    enum = BreezeIconsEnum.HOME_TREND_DOWN_LINEAR
-                )
 
-            val HomeTrendUp: BreezeIconsType
-                @Composable
-                get() = BreezeIconsType.NormalIcon(
-                    ImageVector.vectorResource(R.drawable.home_trend_up),
-                    enum = BreezeIconsEnum.HOME_TREND_UP_LINEAR
-                )
-
-            val TrendDown: BreezeIconsType
-                @Composable
-                get() = BreezeIconsType.NormalIcon(
-                    ImageVector.vectorResource(R.drawable.trend_down),
-                    enum = BreezeIconsEnum.TREND_DOWN_LINEAR
-                )
-
-            val TrendUp: BreezeIconsType
-                @Composable
-                get() = BreezeIconsType.NormalIcon(
-                    ImageVector.vectorResource(R.drawable.trend),
-                    enum = BreezeIconsEnum.TREND_UP_LINEAR
-                )
-        }
 
         object Nature {
             val ChristmasTree: BreezeIconsType
@@ -806,6 +818,27 @@ object BreezeIcons {
 
         val All  get() = BreezeIconsOutlinedAll
 
+        object Arrow {
+            val Export: BreezeIconsType
+                @Composable
+                get() = BreezeIconsType.NormalIcon(
+                    ImageVector.vectorResource(R.drawable.export_outlined),
+                    enum = BreezeIconsEnum.EXPORT_OUTLINED
+                )
+            val Logout: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.logout_outlined),
+                enum = BreezeIconsEnum.LOGOUT_OUTLINED
+            )
+            val Repeat: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.repeat_outlined),
+                enum = BreezeIconsEnum.REPEAT_OUTLINED
+            )
+        }
+
         object Building {
             val Hospital: BreezeIconsType
                 @Composable
@@ -870,12 +903,25 @@ object BreezeIcons {
         }
 
         object SupportLikeQuestion {
+
+            val Heart: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                icon = ImageVector.vectorResource(R.drawable.heart_outlined),
+                enum = BreezeIconsEnum.HEART_OUTLINED
+            )
             val Like: BreezeIconsType
                 @Composable
                 get() = BreezeIconsType.NormalIcon(
                     icon = ImageVector.vectorResource(R.drawable.like_outlined),
                     enum = BreezeIconsEnum.LIKE_OUTLINED
                 )
+            val Star: BreezeIconsType
+            @Composable
+            get() = BreezeIconsType.NormalIcon(
+                ImageVector.vectorResource(R.drawable.star_outlined),
+                enum = BreezeIconsEnum.STAR_OUTLINED
+            )
         }
 
         object Money {

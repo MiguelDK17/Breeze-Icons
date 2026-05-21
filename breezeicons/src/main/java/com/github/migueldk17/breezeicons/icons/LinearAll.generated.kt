@@ -14,16 +14,16 @@ object BreezeIconsLinearAll {
            get() = BreezeIcons.Linear.ElectronicDevices.Airpods           
      val AltArrowDown
            @Composable
-           get() = BreezeIcons.Linear.Arrows.AltArrowDown           
+           get() = BreezeIcons.Linear.Arrow.AltArrowDown           
      val AltArrowLeft
            @Composable
-           get() = BreezeIcons.Linear.Arrows.AltArrowLeft           
+           get() = BreezeIcons.Linear.Arrow.AltArrowLeft           
      val AltArrowRight
            @Composable
-           get() = BreezeIcons.Linear.Arrows.AltArrowRight           
+           get() = BreezeIcons.Linear.Arrow.AltArrowRight           
      val AltArrowUp
            @Composable
-           get() = BreezeIcons.Linear.Arrows.AltArrowUp           
+           get() = BreezeIcons.Linear.Arrow.AltArrowUp           
      val AndroidLinear
            @Composable
            get() = BreezeIcons.Linear.Company.AndroidLinear           
@@ -126,6 +126,9 @@ object BreezeIconsLinearAll {
      val EditLinear
            @Composable
            get() = BreezeIcons.Linear.Software.EditLinear           
+     val Export
+           @Composable
+           get() = BreezeIcons.Linear.Arrow.Export           
      val Eye
            @Composable
            get() = BreezeIcons.Linear.Security.Eye           
@@ -201,6 +204,9 @@ object BreezeIconsLinearAll {
      val Lock
            @Composable
            get() = BreezeIcons.Linear.Security.Lock           
+     val Logout
+           @Composable
+           get() = BreezeIcons.Linear.Arrow.Logout           
      val MagicPen
            @Composable
            get() = BreezeIcons.Linear.DesignTools.MagicPen           
@@ -242,10 +248,10 @@ object BreezeIconsLinearAll {
            get() = BreezeIcons.Linear.Nature.Recycle           
      val Refresh
            @Composable
-           get() = BreezeIcons.Linear.Arrows.Refresh           
+           get() = BreezeIcons.Linear.Arrow.Refresh           
      val Restart
            @Composable
-           get() = BreezeIcons.Linear.Arrows.Restart           
+           get() = BreezeIcons.Linear.Arrow.Restart           
      val SearchNormal
            @Composable
            get() = BreezeIcons.Linear.Search.SearchNormal           
